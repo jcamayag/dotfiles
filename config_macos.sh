@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# config.sh
+# config_macos.sh
 # Copyright (C) 2018 Daniel Santiago <dspelaez@gmail>
 #
 # Distributed under terms of the GNU/GPL license.
@@ -11,8 +11,8 @@
 # -------------------------------------------------------------------
 #
 #   Usage:
-#      curl https://raw.githubusercontent.com/dspelaez/dotfiles/master/config.sh -o config.sh
-#      sh ./config.sh 
+#      curl https://raw.githubusercontent.com/jcamayag/dotfiles/master/config_macos.sh -o config_macos.sh
+#      sh ./config_macos.sh 
 #
 #   Author:
 #     Daniel Santiago
