@@ -32,4 +32,3 @@ ln -sf $DOTFILES/vim/ultisnips $CONFIG/nvim/
 
 # tmux
 ln -sf $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
-ln -sf $DOTFILES/tmux/tmuxinator $CONFIG/

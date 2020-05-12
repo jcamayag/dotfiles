@@ -61,7 +61,6 @@ install_homebrew () {
     vim
     neovim
     tmux
-    tmuxinator
     imagemagick
     pandoc
     markdown
@@ -89,7 +88,6 @@ install_homebrew () {
     skim
     spotify
     dropbox
-    google-backup-and-sync
     google-drive-file-stream
     docker
     iterm2
@@ -161,7 +159,7 @@ copy_dotfiles () {
     #
     # clone repository and copy files to $HOME
     rm -rf $HOME/dotfiles
-    git clone https://github.com/dspelaez/dotfiles.git
+    git clone https://github.com/jcamayag/dotfiles.git
     cd dotfiles && cp -r dotfiles $HOME/.dotfiles
     #
     # make symbolic links
