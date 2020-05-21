@@ -84,6 +84,8 @@ install_homebrew () {
   # 3.4. install some casks
   # -------------------------------
   apps=(
+    python
+    starship
     brave-browser
     skim
     spotify
@@ -93,11 +95,10 @@ install_homebrew () {
     iterm2
     inkscape
     mactex
-    github-desktop
     zoomus
     visual-studio-code
-    mendeley-desktop
     calibre
+    teamviewer
     )
 
   printf "\nThe following casks will be installed\n"
@@ -163,11 +164,11 @@ copy_dotfiles () {
   else
     #
     # clone repository and copy files to $HOME
-    rm -rf $HOME/dotfiles
-    git clone https://github.com/jcamayag/dotfiles.git
-    cd dotfiles && cp -r dotfiles $HOME/.dotfiles
+    rm -rf $HOME/.dotfiles
+    git clone https://github.com/jcamayag/dotfiles.git $HOME/.dotfiles
     #
     # make symbolic links
+    cd $HOME/.dotfiles
     sh ./symlink.sh
     cd $HOME
   fi
