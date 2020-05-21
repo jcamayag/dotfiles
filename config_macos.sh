@@ -15,8 +15,8 @@
 #      sh ./config_macos.sh 
 #
 #   Author:
-#     Daniel Santiago
-#     github/dspelaez
+#     Juan Camilo
+#     github/jcamayag
 # ===================================================================
 
 
@@ -93,6 +93,11 @@ install_homebrew () {
     iterm2
     inkscape
     mactex
+    github-desktop
+    zoomus
+    visual-studio-code
+    mendeley-desktop
+    calibre
     )
 
   printf "\nThe following casks will be installed\n"
