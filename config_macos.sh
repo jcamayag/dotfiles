@@ -55,6 +55,8 @@ install_homebrew () {
   # 3.2. install some apps
   # -------------------------------
   apps=(
+    python
+    starship
     wget 
     git
     coreutils
@@ -84,8 +86,6 @@ install_homebrew () {
   # 3.4. install some casks
   # -------------------------------
   apps=(
-    python
-    starship
     brave-browser
     skim
     spotify
