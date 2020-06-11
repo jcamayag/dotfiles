@@ -88,7 +88,6 @@ install_homebrew () {
   apps=(
     brave-browser
     skim
-    spotify
     dropbox
     google-drive-file-stream
     docker
@@ -99,6 +98,8 @@ install_homebrew () {
     visual-studio-code
     calibre
     teamviewer
+    telegram
+    evernote
     )
 
   printf "\nThe following casks will be installed\n"
