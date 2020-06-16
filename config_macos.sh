@@ -94,11 +94,9 @@ install_homebrew () {
     iterm2
     inkscape
     mactex
-    zoomus
     visual-studio-code
     calibre
     teamviewer
-    telegram
     evernote
     )
 
