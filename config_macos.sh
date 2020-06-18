@@ -98,6 +98,7 @@ install_homebrew () {
     calibre
     teamviewer
     evernote
+    zoomus
     )
 
   printf "\nThe following casks will be installed\n"
