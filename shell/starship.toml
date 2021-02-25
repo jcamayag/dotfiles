@@ -7,10 +7,10 @@ min_time = 10000
 
 [directory]
 truncation_length = 3
-prefix = ""
+format = ""
 
 [aws]
-symbol = "[aws] "
+success_symbol = "[aws] "
 
 [battery]
 full_symbol = ""
@@ -18,37 +18,37 @@ charging_symbol = ""
 discharging_symbol = ""
 
 [conda]
-symbol = "[conda] "
+success_symbol = "[conda] "
 
 [git_branch]
-symbol = "[git] "
+success_symbol = "[git] "
 
 [golang]
-symbol = "[go] "
+success_symbol = "[go] "
 
 [hg_branch]
-symbol = "[hg] "
+success_symbol = "[hg] "
 
 [java]
-symbol = "[java] "
+success_symbol = "[java] "
 
 [memory_usage]
 disabled = true
 
 [nodejs]
-symbol = "⬢ "
+success_symbol = "⬢ "
 
 [package]
-symbol = "[pkg] "
+success_symbol = "[pkg] "
 
 [php]
-symbol = "[php] "
+success_symbol = "[php] "
 
 [python]
-symbol = "[py] "
+success_symbol = "[py] "
 
 [ruby]
-symbol = "[rb] "
+success_symbol = "[rb] "
 
 [rust]
-symbol = "[rust] "
+success_symbol = "[rust] "

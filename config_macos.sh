@@ -87,6 +87,8 @@ install_homebrew () {
   # -------------------------------
   apps=(
     brave-browser
+    google-chrome
+    microsoft-teams
     skim
     dropbox
     google-drive-file-stream
@@ -96,9 +98,10 @@ install_homebrew () {
     mactex
     visual-studio-code
     calibre
-    teamviewer
-    evernote
-    zoomus
+    anydesk
+    spotify
+    zoom
+    whatsapp
     )
 
   printf "\nThe following casks will be installed\n"
@@ -110,7 +113,7 @@ install_homebrew () {
     exit 0
   else
     for app in "${apps[@]}"; do
-      brew cask install ${app}
+      brew install --cask ${app}
     done
     brew cleanup
   fi
